@@ -12,6 +12,7 @@ void freeListMem(struct employee* pList, size_t iLen);
 struct employee* push_back(struct employee* pOriginal, size_t nOriginal, struct employee* pEmployee, size_t nEmployee);
 size_t determineDepth(struct office* pOffice);
 size_t minimum(size_t a, size_t b);
+int kkk();
 
 /**
  * If the supervisor field is NULL it is assumed the employee will be placed under the next employee that is
